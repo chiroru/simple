@@ -2,11 +2,15 @@ package jp.ddo.chiroru.simple;
 
 public class App {
 
-    public static int add(int a, int b) {
-    	return a + b;
+	private int c = 1;
+
+	private int d = 10;
+
+    public int add(int a, int b) {
+    	return a + b + c;
     }
 
-    public static int sub(int a, int b) {
-    	return a - b;
+    public int sub(int a, int b) {
+    	return d - a - b;
     }
 }

@@ -9,11 +9,13 @@ public class AppTest {
 
 	@Test
 	public void addTest() throws Exception {
-		assertThat(App.add(1, 1), is(2));
+		App a = new App();
+		assertThat(a.add(1, 1), is(2));
 	}
 
 	@Test
 	public void subTest() throws Exception {
-		assertThat(App.sub(2, 1), is(1));
+		App a = new App();
+		assertThat(a.sub(2, 1), is(1));
 	}
 }
