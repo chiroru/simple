@@ -2,9 +2,9 @@ package jp.ddo.chiroru.simple;
 
 public class App {
 
-	private int c = 1;
+	public int c = 1;
 
-	private int d = 10;
+	public int d = 10;
 
     public int add(int a, int b) {
     	return a + b + c;

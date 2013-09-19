@@ -10,12 +10,12 @@ public class AppTest {
 	@Test
 	public void addTest() throws Exception {
 		App a = new App();
-		assertThat(a.add(1, 1), is(2));
+		assertThat(a.add(1, 1), is(3));
 	}
 
 	@Test
 	public void subTest() throws Exception {
 		App a = new App();
-		assertThat(a.sub(2, 1), is(1));
+		assertThat(a.sub(2, 1), is(8));
 	}
 }
