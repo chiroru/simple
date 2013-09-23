@@ -16,6 +16,6 @@ public class AppTest {
 	@Test
 	public void subTest() throws Exception {
 		App a = new App();
-		assertThat(a.sub(2, 1), is(8));
+		assertThat(a.sub(2, 1), is(7));
 	}
 }

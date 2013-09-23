@@ -22,4 +22,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>public-repository</id>
+      <name>public-repository</name>
+      <url>http://192.168.215.15/nexus/content/groups/public/</url>
+    </repository>
+    <repository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+  </repositories>
 </project>
